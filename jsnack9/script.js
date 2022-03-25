@@ -26,9 +26,9 @@ function mediaAritmetica(Ar){
 }
 let numer;
 let arr=[];
-for(let i=0;i<3;i++){
+for(let i=0;i<10;i++){
     numer=prompt("Inserisci un numero: ");
     numer=parseFloat(numer);
     arr.push(numer);
 }
-document.getElementById('input').innerHTML ='somma:' + sommaNumeri(arr)+', '+'media'+ mediaAritmetica(arr);
+document.getElementById('input').innerHTML ='somma: ' + sommaNumeri(arr)+', '+'media: '+ mediaAritmetica(arr);
