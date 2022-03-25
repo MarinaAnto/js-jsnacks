@@ -12,5 +12,5 @@ function sommaNumeri(Arr){
  return total;
 }
 let myArr=[5,7,6,3,4,5,3];
-document.getElementById('somma').innerHTML = sommaNumeri(myArr) ;
+document.getElementById('somma').innerHTML = 'somma'+ sommaNumeri(myArr) ;
 
