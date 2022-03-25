@@ -1,3 +1,7 @@
+/*
+L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore
+*/
 let Num1=prompt("Scegli il primo numero: ");
 let Num2=prompt("Scegli il secondo numero: ");
 let risposta="";
